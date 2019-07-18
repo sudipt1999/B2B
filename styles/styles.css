@@ -10660,4 +10660,109 @@ font-family: 'Francois One', sans-serif;
   letter-spacing: 1.5px;
   font-family: 'Acme', sans-serif;
 }
+
+#what-can-i-do span {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 200px !important;
+  height: 200px !important;
+  border: 3px solid #e1e1e1;
+  position: relative;
+  border-radius: 50%;
+  -webkit-transition: border 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: border 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+#what-can-i-do span:hover {
+  -webkit-box-shadow: 3px 3px #333;
+          box-shadow: 3px 3px #333;
+}
+
+#what-can-i-do span:hover i {
+  -webkit-transform: scale(1.4);
+          transform: scale(1.4);
+}
+
+#what-can-i-do span i {
+  position: absolute;
+  top: 35%;
+  left: 37%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#what-can-i-do .desc-head {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: 'Francois One', sans-serif;
+}
+
+#what-can-i-do .desc-head::before {
+  content: "->";
+  display: inline-block;
+}
+
+#lets-get-started h2 {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  font-family: 'Acme', sans-serif;
+}
+
+#lets-get-started .button-custom .btn {
+  background-color: #ff7133;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  color: #fff;
+  font-weight: 400;
+  border-radius: 0;
+}
+
+#feature-hero-section #hero-section-image {
+  background-image: url("https://images.unsplash.com/1/work-stations-plus-espresso.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 90vh;
+  height: 100%;
+}
+
+#feature-hero-section .button-custom .btn {
+  background-color: #ff7133;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  color: #fff;
+  font-weight: 400;
+  border-radius: 0;
+}
+
+#core-features {
+  background: url("../assest/new-pattern.png");
+}
+
+#cards-features a {
+  font-style: normal;
+  text-decoration: none;
+}
+
+#cards-features .card {
+  margin: 20px auto;
+}
+
+#cards-features .card-image {
+  min-height: 350px;
+}
+
+#cards-features .button-custom .btn {
+  background-color: #ff7133;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  font-weight: 400;
+  border-radius: 0;
+}
+
+#cards-features .button-custom .btn a {
+  color: #fff !important;
+}
 /*# sourceMappingURL=styles.css.map */
