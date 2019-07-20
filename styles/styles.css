@@ -10580,7 +10580,6 @@ font-family: 'Francois One', sans-serif;
   font-weight: 500;
   letter-spacing: 1px;
   color: #333;
-  font-family: 'Acme', sans-serif;
 }
 
 @media only screen and (max-width: 600px) {
@@ -10596,7 +10595,6 @@ font-family: 'Francois One', sans-serif;
   line-height: 1.5;
   font-weight: 700;
   letter-spacing: 1.5px;
-  font-family: 'Acme', sans-serif;
 }
 
 #hero-section #hero-section-content .heading h2 {
@@ -10605,7 +10603,6 @@ font-family: 'Francois One', sans-serif;
   line-height: 1.5;
   font-weight: 700;
   letter-spacing: 1.5px;
-  font-family: 'Francois One', sans-serif;
 }
 
 #hero-section #hero-section-content .products-sec {
@@ -10658,7 +10655,6 @@ font-family: 'Francois One', sans-serif;
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 1.5px;
-  font-family: 'Acme', sans-serif;
 }
 
 #what-can-i-do span {
@@ -10695,12 +10691,6 @@ font-family: 'Francois One', sans-serif;
 #what-can-i-do .desc-head {
   font-size: 1.5rem;
   font-weight: 400;
-  font-family: 'Francois One', sans-serif;
-}
-
-#what-can-i-do .desc-head::before {
-  content: "->";
-  display: inline-block;
 }
 
 #lets-get-started h2 {
@@ -10708,7 +10698,6 @@ font-family: 'Francois One', sans-serif;
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 1.5px;
-  font-family: 'Acme', sans-serif;
 }
 
 #lets-get-started .button-custom .btn {

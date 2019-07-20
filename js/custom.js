@@ -89,35 +89,23 @@ $(document).ready(function(){
             Host : "smtp.elasticemail.com",
             Username : "sudiptdabral2991999@gmail.com",
             Password : "18a68d71-e1a9-4b29-a063-79026f2d3e25",
-            To : 'sudiptdabral2991999@gmail.com',
+            To : 'aggarwalrishabh105@gmail.com',
             From : "sudiptdabral2991999@gmail.com",
             Subject : "REQUEST DEMO",
             Body : `Name : ${t.name} phone: ${t.phone} email: ${t.email} company: ${t.company} reps: ${t.reps}`
-        }).then(
-          message => alert(message)
-        );
-        // $.ajax({
-        //     type: 'POST',
-        //     url: 'https://mandrillapp.com/api/1.0/messages/send.json',
-        //     data: {
-        //       'key': '534bc03726fc0dad9e3ba713e5d31563-us3',
-        //       'message': {
-        //         'from_email': 'sudiptdabral2991999@gmail.com',
-        //         'to': [
-        //             {
-        //               'email': 'sudiptdabral2991999@gmail.com',
-        //               'type': 'to'
-        //             }
-        //           ],
-        //         'autotext': 'true',
-        //         'subject': 'REQUEST FOR DEMO FROM B2B',
-        //         'html': `Name : ${t.name} phone: ${t.phone} email: ${t.email} company: ${t.company} reps: ${t.reps}`
-        //       }
-        //     }
-        //    }).done(function(response) {
-        //      console.log(response)
-        //      alert("SENT")
-        //    });
+        }).then(message =>{
+          $('#request-input-form').append(`
+            <div class="alert alert-success alert-dismissible fade show text-center" role="alert">
+            <h2>Thank You !</h2>
+            <p class="lead">
+            A EMS specialist will be in touch with you soon !
+            </p>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+          `)
+        });
     }
     
   });
