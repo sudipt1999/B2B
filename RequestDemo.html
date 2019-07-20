@@ -8,9 +8,117 @@
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    
+        <!--###################################################################################################-->
+    <!---------------------------------------NAVBAR STARTS--------------------------------------------------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">B2B</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse my-2" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mr-5">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Feature1.html">f-1</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Feature2.html">f-2</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Feature3.html">f-3</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-primary" href="#">Request A Demo</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+<!---------------------------------------NAVBAR ENDS--------------------------------------------------->
+<!--###################################################################################################-->
+
+<!---------------------------------------REQUEST A DEMO--------------------------------------------------->
+<!--###################################################################################################-->
+<section id="request-demo">
+    <div class="container">
+        <div class="row py-5">
+            <div class="col-12 text-center">
+                <h1>Request A Demo</h1>
+                <p class="lead">
+                    <ul id="request-list">
+                        <li>Upgrade your B2B selling process</li>
+                        <li>Reduce your cost to serve customers</li>
+                        <li>Give your B2B customer an App to place order</li>
+                    </ul>
+                </p>
+            </div>
+            <div class="col-12 col-md-6">
+                <h3>Contact Us</h3>
+                <p class="lead">
+                    Let's have a 10 minute call and see
+                    if EMS'a fit for your Business
+                </p>
+                <form class="form">
+                    <div class="form-group row">
+                        <label for="name" class="col-sm-3 col-form-label">Name</label>
+                        <div class="col-sm-9" id="name-input">
+                            <input type="text" class="form-control" id="name" placeholder="Enter Your Name" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                            <label for="company" class="col-sm-3 col-form-label">Company</label>
+                            <div class="col-sm-9" id="company-input">
+                                <input type="text" class="form-control" id="company" placeholder="Your Company Name" required>
+                            </div>
+                    </div>
+                    <div class="form-group row">
+                            <label for="email" class="col-sm-3 col-form-label">Email</label>
+                            <div class="col-sm-9" id="email-input">
+                                <input type="email" class="form-control" id="email" placeholder="Enter Your Email" required>
+                            </div>
+                    </div>
+                    <div class="form-group row">
+                            <label for="phone" class="col-sm-3 col-form-label">Phone</label>
+                            <div class="col-sm-9" id="phone-input">
+                                <input type="text" minlength="10" class="form-control" id="phone" placeholder="Enter Your Phone Number" required>
+                            </div>
+                    </div>
+                    <div class="form-group row">
+                            <label for="sales-rep" class="col-sm-3 col-form-label">Sales Rep</label>
+                            <div class="col-sm-6" id="sales-input">
+                                <select id="sales-rep" class="form-control" required>
+                                    <option selected disabled>Choose...</option>
+                                    <option value="1-5">1-5</option>
+                                    <option calue="6-20">6-20</option>
+                                    <option value="21-100">21-100</option>
+                                    <option value="100+">100+</option>
+                                </select>
+                            </div>
+                    </div>
+                    <div class="form-group row">
+                            <div class="col-12 col-md-8 mx-auto">
+                              <input type="submit" id="request-demo-btn" class="btn btn-success btn-block mx-auto" value="Submit"/>
+                            </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-12 col-md-6">
+                <img width="100%" src="assest/contact.png" alt="contact image">
+            </div>
+        </div>
+    </div>
+</section>
+<!---------------------------------------REQUEST A DEMO ENDS--------------------------------------------------->
+<!--###################################################################################################-->
+
+
 </body> 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src='./js/bootstrap.min.js'></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src='./js/custom.js'></script>
 </html>
