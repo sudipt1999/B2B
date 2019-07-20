@@ -89,7 +89,7 @@ $(document).ready(function(){
             Host : "smtp.elasticemail.com",
             Username : "sudiptdabral2991999@gmail.com",
             Password : "18a68d71-e1a9-4b29-a063-79026f2d3e25",
-            To : 'aggarwalrishabh105@gmail.com',
+            To : 'sudiptdabral2991999@gmail.com',
             From : "sudiptdabral2991999@gmail.com",
             Subject : "REQUEST DEMO",
             Body : `Name : ${t.name} phone: ${t.phone} email: ${t.email} company: ${t.company} reps: ${t.reps}`

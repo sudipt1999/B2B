@@ -10758,4 +10758,13 @@ font-family: 'Francois One', sans-serif;
 #request-demo #request-list {
   list-style-type: none;
 }
+
+#core-features .content {
+  text-align: justify;
+}
+
+.bg-dark-custom {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.7)));
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7));
+}
 /*# sourceMappingURL=styles.css.map */
