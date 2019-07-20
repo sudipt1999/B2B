@@ -10709,6 +10709,11 @@ font-family: 'Francois One', sans-serif;
   border-radius: 0;
 }
 
+#lets-get-started .button-custom .btn:hover {
+  background-color: #a1380b;
+  color: #fff;
+}
+
 #feature-hero-section #hero-section-image {
   background-image: url("https://images.unsplash.com/1/work-stations-plus-espresso.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
   background-repeat: no-repeat;
@@ -10724,6 +10729,11 @@ font-family: 'Francois One', sans-serif;
   color: #fff;
   font-weight: 400;
   border-radius: 0;
+}
+
+#feature-hero-section .button-custom .btn:hover {
+  background-color: #a1380b;
+  color: #fff;
 }
 
 #core-features {
@@ -10751,6 +10761,11 @@ font-family: 'Francois One', sans-serif;
   border-radius: 0;
 }
 
+#cards-features .button-custom .btn:hover {
+  background-color: #a1380b;
+  color: #fff;
+}
+
 #cards-features .button-custom .btn a {
   color: #fff !important;
 }
@@ -10766,5 +10781,47 @@ font-family: 'Francois One', sans-serif;
 .bg-dark-custom {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.7)));
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.7));
+}
+
+#feature-1, #feature-2, #feature-3 {
+  margin: auto 20px;
+  padding: auto 20px;
+}
+
+.button-custom .btn {
+  background-color: #ff7133;
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  font-weight: 400;
+  border-radius: 0;
+}
+
+.button-custom .btn:hover {
+  background-color: #a1380b;
+  color: #fff;
+}
+
+.button-custom .btn a {
+  color: #fff !important;
+}
+
+select {
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none;
+}
+
+/* For IE10 */
+select::-ms-expand {
+  display: none;
+}
+
+.dropdown-toggle::after {
+  display: none;
+}
+
+.nav-item {
+  margin: auto 15px;
 }
 /*# sourceMappingURL=styles.css.map */
