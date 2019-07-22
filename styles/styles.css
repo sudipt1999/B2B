@@ -10661,8 +10661,8 @@ font-family: 'Francois One', sans-serif;
   display: inline-block;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  width: 200px !important;
-  height: 200px !important;
+  width: 150px !important;
+  height: 150px !important;
   border: 3px solid #e1e1e1;
   position: relative;
   border-radius: 50%;
@@ -10675,15 +10675,10 @@ font-family: 'Francois One', sans-serif;
           box-shadow: 3px 3px #333;
 }
 
-#what-can-i-do span:hover i {
-  -webkit-transform: scale(1.4);
-          transform: scale(1.4);
-}
-
 #what-can-i-do span i {
   position: absolute;
-  top: 35%;
-  left: 37%;
+  top: 32%;
+  left: 33%;
   -webkit-transform: scale(1);
           transform: scale(1);
 }
