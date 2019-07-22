@@ -10651,10 +10651,11 @@ font-family: 'Francois One', sans-serif;
 }
 
 #what-can-i-do .heading h2 {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
   line-height: 1.5;
   font-weight: 500;
   letter-spacing: 1.5px;
+  text-decoration: underline;
 }
 
 #what-can-i-do span {
@@ -10668,6 +10669,7 @@ font-family: 'Francois One', sans-serif;
   border-radius: 50%;
   -webkit-transition: border 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
   transition: border 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  margin: auto;
 }
 
 #what-can-i-do span:hover {
@@ -10686,6 +10688,7 @@ font-family: 'Francois One', sans-serif;
 #what-can-i-do .desc-head {
   font-size: 1.5rem;
   font-weight: 400;
+  text-align: center;
 }
 
 #lets-get-started h2 {
@@ -10818,5 +10821,10 @@ select::-ms-expand {
 
 .nav-item {
   margin: auto 15px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
 }
 /*# sourceMappingURL=styles.css.map */
