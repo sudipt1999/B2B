@@ -10930,12 +10930,22 @@ select::-ms-expand {
   font-weight: 800;
 }
 
+#pricing-card .pricing-header h2 {
+  font-size: 2.5rem;
+}
+
+#pricing-card .pricing-header h3 {
+  font-size: 1.23rem;
+}
+
 #pricing-card ul {
   list-style-type: none;
 }
 
 #pricing-card ul li {
   color: #fff;
+  border-bottom: 1px solid #e6e6e6;
+  padding: 20px 0px;
 }
 
 #pricing-card ul li:before {
@@ -10944,7 +10954,7 @@ select::-ms-expand {
 }
 
 #pricing-card .price {
-  color: #0616ec;
+  color: #fff;
 }
 
 #pricing-card .note ul li {
@@ -10968,5 +10978,14 @@ select::-ms-expand {
   width: 100%;
   background-color: #d8580f;
   height: 4px;
+}
+
+.inr::before {
+  content: "\f156";
+}
+
+.note {
+  font-weight: 800;
+  color: #dc3545 !important;
 }
 /*# sourceMappingURL=styles.css.map */
