@@ -10587,7 +10587,7 @@ font-family: 'Francois One', sans-serif;
 
 @media only screen and (max-width: 600px) {
   #hero-section #hero-section-content .apna-nara h2 i {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -10665,6 +10665,12 @@ font-family: 'Francois One', sans-serif;
   font-weight: 500;
   letter-spacing: 1.5px;
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  #what-can-i-do .heading h2 {
+    font-size: 1.7rem !important;
+  }
 }
 
 #what-can-i-do span {
