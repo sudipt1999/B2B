@@ -20,26 +20,47 @@
 
         <div class="collapse navbar-collapse my-2" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto mr-5">
-                <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
-                </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                       Products
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="Feature1.html">EMS Retailer App</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="Feature2.html">EMS Rep</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="Feature3.html">EMS Dashboard</a>
+                    <div id="myNavBlock" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="d-block d-md-flex">
+                             <a class="dropdown-item d-block" href="Feature1.html">
+                                <span class="d-none d-md-block mx-auto">
+                                    <img src="assest/bp-icon.png" height='120px'>
+                                </span> 
+                                EMS Retailer App
+                             </a>
+                             <div class="dropdown-divider"></div>
+                             <a class="dropdown-item d-block" href="Feature2.html">
+                                <span class="d-none d-md-block mx-auto">
+                                    <img src="assest/bp-icon.png" height='120px'>
+                                </span>                                  
+                                 EMS Rep
+                             </a>
+                             <div class="dropdown-divider"></div>
+                             <a class="dropdown-item d-block" href="Feature3.html">
+                                <span class="d-none d-md-block mx-auto">
+                                    <img src="assest/bp-icon.png" height='120px'>
+                                </span>   
+                                EMS Dashboard
+                            </a>
+                        </div>
                     </div>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                        <a class="nav-link" href="Pricing.html">Pricing</a>
+                </li>
+
 
                 <li class="nav-item active">
                     <div class="button-custom text-center w-100 d-inline">
                         <a href="RequestDemo.html">
-                            <button class="btn">Request Demo</button>
+                            <button class="btn text-white">Request Demo</button>
                         </a>
                     </div>
                 </li>
@@ -57,13 +78,13 @@
             <div class="row py-5">
                 <div class="col-12 text-center" id="request-input-form">
                     <h1>Request A Demo</h1>
-                    <p class="lead">
-                        <ul id="request-list">
+                    <div class="lead w-100 d-flex justify-content-center">
+                        <ul id="request-list" class="mx-auto">
                             <li>Upgrade your B2B selling process</li>
                             <li>Reduce your cost to serve customers</li>
                             <li>Give your B2B customer an App to place order</li>
                         </ul>
-                    </p>
+                    </div>
                 </div>
                 <div class="col-12 col-md-6">
                     <h3>Contact Us</h3>

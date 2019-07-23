@@ -7,6 +7,9 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway:800&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway:800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:800&display=swap");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10645,6 +10648,14 @@ font-family: 'Francois One', sans-serif;
   border-radius: 0;
 }
 
+#below-hero-section {
+}
+
+#below-hero-section h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
 #below-hero-section .card-link {
   display: block;
   color: #333;
@@ -10657,14 +10668,16 @@ font-family: 'Francois One', sans-serif;
 
 #what-can-i-do .heading {
   width: 100%;
+  font-family: 'Raleway', sans-serif;
 }
 
 #what-can-i-do .heading h2 {
   font-size: 2.4rem;
   line-height: 1.5;
-  font-weight: 500;
+  font-weight: 800;
   letter-spacing: 1.5px;
   text-decoration: underline;
+  font-family: 'Raleway', sans-serif !important;
 }
 
 @media only screen and (max-width: 600px) {
@@ -10787,6 +10800,16 @@ font-family: 'Francois One', sans-serif;
   list-style-type: none;
 }
 
+#request-demo #request-list li {
+  text-align: left !important;
+  color: #333;
+}
+
+#request-demo #request-list li:before {
+  content: "\2714\0020";
+  color: green;
+}
+
 #core-features .content {
   text-align: justify;
 }
@@ -10800,7 +10823,7 @@ font-family: 'Francois One', sans-serif;
 #core-features .title h3 {
   color: #222;
   font-weight: 700;
-  font-family: Raleway,sans-serif;
+  font-family: 'Raleway',sans-serif;
 }
 
 .bg-dark-custom {
@@ -10927,5 +10950,23 @@ select::-ms-expand {
 #pricing-card .note ul li {
   font-weight: 700;
   color: #dc3545 !important;
+}
+
+.dropdown-menu {
+  margin-left: -120px;
+}
+
+.dropdown-menu a {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.active::after {
+  content: "";
+  display: block;
+  width: 100%;
+  background-color: #d8580f;
+  height: 4px;
 }
 /*# sourceMappingURL=styles.css.map */
