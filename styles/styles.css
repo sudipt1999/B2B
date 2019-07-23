@@ -6,6 +6,7 @@
  */
 @import url("https://fonts.googleapis.com/css?family=Raleway&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway:800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:800&display=swap");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10644,6 +10645,12 @@ font-family: 'Francois One', sans-serif;
   border-radius: 0;
 }
 
+#below-hero-section .card-link {
+  display: block;
+  color: #333;
+  text-decoration: none;
+}
+
 #what-can-i-do {
   background-color: #f5f5f5 !important;
 }
@@ -10865,5 +10872,54 @@ select::-ms-expand {
   font-size: 18px;
   font-weight: 300;
   color: #333;
+}
+
+#pricing-card {
+  background-color: #f5f5f5;
+  font-family: 'Raleway', sans-serif;
+}
+
+#pricing-card #p-card {
+  -webkit-box-shadow: 0 0 5px #333;
+          box-shadow: 0 0 5px #333;
+  background-image: -webkit-gradient(linear, left top, right top, from(#ff9b00), to(#ff7800));
+  background-image: linear-gradient(90deg, #ff9b00, #ff7800);
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+#pricing-card #p-card:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+#pricing-card .pricing-header {
+  border-bottom: solid 3px #f5f5f5;
+}
+
+#pricing-card .pricing-header h2, #pricing-card .pricing-header h3 {
+  font-weight: 800;
+}
+
+#pricing-card ul {
+  list-style-type: none;
+}
+
+#pricing-card ul li {
+  color: #fff;
+}
+
+#pricing-card ul li:before {
+  content: "\2714\0020";
+  color: green;
+}
+
+#pricing-card .price {
+  color: #0616ec;
+}
+
+#pricing-card .note ul li {
+  font-weight: 700;
+  color: #dc3545 !important;
 }
 /*# sourceMappingURL=styles.css.map */
