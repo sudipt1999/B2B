@@ -12,6 +12,8 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:800&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway:800&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Raleway:800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Raleway:800&display=swap");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -10739,7 +10741,7 @@ font-family: 'Francois One', sans-serif;
 }
 
 #lets-get-started .button-custom .btn:hover {
-  background-color: #a1380b;
+  background-color: #ff7133;
   color: #fff;
 }
 
@@ -10751,17 +10753,29 @@ font-family: 'Francois One', sans-serif;
   height: 100%;
 }
 
+#feature-hero-section .lead {
+  font-family: 'Raleway', sans-serif;
+  line-height: 1.5;
+  letter-spacing: 1px;
+}
+
 #feature-hero-section .button-custom .btn {
-  background-color: #ff7133;
+  background-color: #ff5800;
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
   color: #fff;
-  font-weight: 400;
+  font-weight: 600;
   border-radius: 0;
+  font-family: '3653ec 2 0', sans-serif;
+  font-size: 14px;
+  line-height: 0.9;
+  padding: 16px 20px 14px;
 }
 
 #feature-hero-section .button-custom .btn:hover {
-  background-color: #a1380b;
+  -webkit-transform: scale(1.07);
+          transform: scale(1.07);
+  background-color: #ff7133;
   color: #fff;
 }
 
@@ -10783,7 +10797,7 @@ font-family: 'Francois One', sans-serif;
 }
 
 #cards-features .button-custom .btn {
-  background-color: #ff7133;
+  background-color: #ff5800;
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
   font-weight: 400;
@@ -10791,7 +10805,7 @@ font-family: 'Francois One', sans-serif;
 }
 
 #cards-features .button-custom .btn:hover {
-  background-color: #a1380b;
+  background-color: #ff7133;
   color: #fff;
 }
 
@@ -10830,7 +10844,7 @@ font-family: 'Francois One', sans-serif;
 }
 
 .bg-dark-custom {
-  background: #f5f5f5;
+  background: #eeeeee;
 }
 
 #feature-1, #feature-2, #feature-3 {
@@ -10840,7 +10854,7 @@ font-family: 'Francois One', sans-serif;
 }
 
 .button-custom .btn {
-  background-color: #ff7133;
+  background-color: #ff5800;
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
   font-weight: 400;
@@ -10848,7 +10862,7 @@ font-family: 'Francois One', sans-serif;
 }
 
 .button-custom .btn:hover {
-  background-color: #a1380b;
+  background-color: #ff7133;
   color: #fff;
 }
 
@@ -11055,5 +11069,73 @@ footer p {
 
 .mgt-75 {
   margin-top: 76px !important;
+}
+
+#roi {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(245, 246, 252, 0.52)), to(rgba(117, 19, 93, 0.73))), url("../assest/roi-section.jfif");
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)), url("../assest/roi-section.jfif");
+}
+
+#roi .section-small-heading {
+  margin-bottom: 15px;
+  font-family: '3653ec 2 0', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#roi .r-heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 35px;
+  line-height: 1.5;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+#roi h3 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+  line-height: 1;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+#need-ems {
+}
+
+#need-ems h2 {
+  font-family: 'Raleway', 'sans-serif';
+  line-height: 1.284em;
+  font-weight: 600;
+}
+
+#need-ems .num {
+  position: relative;
+  display: inline-block;
+  float: left;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  font-size: 35px;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  margin: 5px 20px 0 0;
+  background: #b2dd4c;
+  border-radius: 50%;
+}
+
+#need-ems h3 {
+  font-weight: 700;
+  font-family: 'Raleway', 'sans-serif';
+  font-size: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
