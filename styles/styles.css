@@ -11132,4 +11132,22 @@ footer p {
   font-family: 'Raleway', 'sans-serif';
   font-size: 20px;
 }
+
+#footer-sec-2 {
+  padding: 0 !important;
+  margin-left: 0 !important;
+}
+
+#footer-sec-3 {
+  padding-left: 3% !important;
+}
+
+@media (min-width: 480px) {
+  #footer-sec-2 {
+    margin-top: 24px;
+  }
+  #footer-sec-3 {
+    padding-left: 15%;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
