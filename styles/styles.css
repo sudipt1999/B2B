@@ -10581,7 +10581,11 @@ font-family: 'Francois One', sans-serif;
 }
 
 #hero-section .margin-t {
-  margin-top: 100px;
+  margin-top: 36px;
+}
+
+#hero-section #hero-section-content {
+  padding-left: 100px;
 }
 
 #hero-section #hero-section-content h3 {
@@ -10608,33 +10612,55 @@ font-family: 'Francois One', sans-serif;
 }
 
 #hero-section #hero-section-content .heading h2 {
-  margin-top: 30px;
-  font-size: 2.5rem;
+  margin-top: 10px;
+  font-size: 3rem;
   line-height: 1.5;
   font-weight: 700;
   letter-spacing: 1.5px;
 }
 
-#hero-section #hero-section-content .products-sec {
-  margin-top: 40px;
-}
-
-#hero-section #hero-section-content .products-sec .icon-custom {
-  font-size: 15px !important;
-  width: 100% !important;
-  color: #000;
-}
-
 #hero-section #hero-section-content .products-sec h5 {
   font-weight: bold;
+  color: #272264;
+}
+
+#hero-section #hero-section-content .products-sec .lead {
+  font-size: 1.2rem;
+  color: #02b0e0;
+  font-weight: bold;
+}
+
+#hero-section #hero-section-content .products-sec .card-custom a {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #272264;
+  padding: 0 10px;
+}
+
+#hero-section #hero-section-content .products-sec .card-custom a .icon-custom {
+  background: #fff;
+}
+
+#hero-section #hero-section-content .products-sec .card-custom a .icon-custom img {
+  margin-top: -45px;
 }
 
 #hero-section #hero-section-image {
   padding: 0px;
+  width: 100%;
+  min-height: 90vh;
+  height: 100%;
+  background-image: url("../assest/LaptopImage.png");
+  background-position: left;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #hero-section #hero-section-image img {
   width: 100%;
+  min-height: 90vh;
+  height: 100%;
+  background: #000;
 }
 
 #hero-section .card-link {
@@ -10644,12 +10670,16 @@ font-family: 'Francois One', sans-serif;
 }
 
 #hero-section .learn-more .btn {
-  background-color: #ff7133;
+  background-color: #272264;
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
   color: #fff;
   font-weight: 400;
   border-radius: 0;
+}
+
+#hero-section .learn-more .btn:hover {
+  background-color: #02b0e0;
 }
 
 #below-hero-section {
@@ -10664,6 +10694,12 @@ font-family: 'Francois One', sans-serif;
   display: block;
   color: #333;
   text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  #hero-section-content {
+    padding-left: 30px !important;
+  }
 }
 
 #what-can-i-do {
@@ -10726,7 +10762,7 @@ font-family: 'Francois One', sans-serif;
 }
 
 #lets-get-started .button-custom .btn {
-  background-color: #ff7133;
+  background-color: #272264;
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
   color: #fff;
@@ -10735,7 +10771,7 @@ font-family: 'Francois One', sans-serif;
 }
 
 #lets-get-started .button-custom .btn:hover {
-  background-color: #ff7133;
+  background-color: #02b0e0;
   color: #fff;
 }
 
@@ -10754,7 +10790,7 @@ font-family: 'Francois One', sans-serif;
 }
 
 #feature-hero-section .button-custom .btn {
-  background-color: #ff5800;
+  background-color: #272264;
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
   color: #fff;
@@ -10769,7 +10805,7 @@ font-family: 'Francois One', sans-serif;
 #feature-hero-section .button-custom .btn:hover {
   -webkit-transform: scale(1.07);
           transform: scale(1.07);
-  background-color: #ff7133;
+  background-color: #02b0e0;
   color: #fff;
 }
 
@@ -10791,7 +10827,7 @@ font-family: 'Francois One', sans-serif;
 }
 
 #cards-features .button-custom .btn {
-  background-color: #ff5800;
+  background-color: #272264;
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
   font-weight: 400;
@@ -10799,7 +10835,7 @@ font-family: 'Francois One', sans-serif;
 }
 
 #cards-features .button-custom .btn:hover {
-  background-color: #ff7133;
+  background-color: #02b0e0;
   color: #fff;
 }
 
@@ -10848,7 +10884,7 @@ font-family: 'Francois One', sans-serif;
 }
 
 .button-custom .btn {
-  background-color: #ff5800;
+  background-color: #272264;
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
   font-weight: 400;
@@ -10856,7 +10892,7 @@ font-family: 'Francois One', sans-serif;
 }
 
 .button-custom .btn:hover {
-  background-color: #ff7133;
+  background-color: #02b0e0;
   color: #fff;
 }
 
@@ -11000,7 +11036,7 @@ select::-ms-expand {
   content: "";
   display: block;
   width: 100%;
-  background-color: #d8580f;
+  background-color: #272264;
   height: 4px;
 }
 
@@ -11054,7 +11090,7 @@ footer p {
 }
 
 #hero-section {
-  margin-top: 176px !important;
+  margin-top: 80px !important;
 }
 
 #feature-hero-section {
