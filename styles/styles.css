@@ -10585,7 +10585,7 @@ font-family: 'Francois One', sans-serif;
 }
 
 #hero-section #hero-section-content {
-  padding-left: 100px;
+  padding-left: 80px;
 }
 
 #hero-section #hero-section-content h3 {
@@ -10627,7 +10627,7 @@ font-family: 'Francois One', sans-serif;
 #hero-section #hero-section-content .products-sec .lead {
   font-size: 1.2rem;
   color: #02b0e0;
-  font-weight: bold;
+  font-weight: 500;
 }
 
 #hero-section #hero-section-content .products-sec .card-custom a {
@@ -11063,7 +11063,7 @@ footer ul {
 
 footer ul li {
   color: #333;
-  padding: 15px 0px;
+  padding: 5px 0px;
 }
 
 footer ul li a:hover {
@@ -11102,8 +11102,10 @@ footer p {
 }
 
 #roi {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(146, 147, 151, 0.205)), to(rgba(136, 133, 135, 0.73))), url("../assest/roi-section.jfif");
-  background-image: linear-gradient(to bottom, rgba(146, 147, 151, 0.205), rgba(136, 133, 135, 0.73)), url("../assest/roi-section.jfif");
+  background-image: url("../assest/roi-section.jpg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #roi .section-small-heading {
@@ -11231,10 +11233,11 @@ footer p {
 
 #what-can-id-new .card {
   border: solid 3px #272264;
+  background: #f8f9fa;
 }
 
 #what-can-id-new .shift-up {
-  background: #fff;
+  background: #f8f9fa;
   margin-top: -22px;
   width: -webkit-max-content !important;
   width: -moz-max-content !important;
@@ -11244,5 +11247,99 @@ footer p {
 
 #what-can-id-new p {
   font-size: 1.3rem;
+}
+
+#pre-post .heading {
+  font-size: 3rem;
+  font-family: 'Raleway', 'sans-serif';
+  font-weight: 800;
+}
+
+#pre-post .card {
+  border: solid 3px #272264;
+}
+
+#pre-post .shift-up {
+  background: #fff;
+  margin-top: -22px;
+  width: -webkit-max-content !important;
+  width: -moz-max-content !important;
+  width: max-content !important;
+  padding: 0 5px;
+}
+
+#pre-post p {
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 600px) {
+  #pre-post .heading {
+    font-size: 1.7rem;
+    font-family: 'Raleway', 'sans-serif';
+    font-weight: 800;
+  }
+}
+
+#pre-section p, #post-section p {
+  font-size: 1.08rem;
+}
+
+#pre-section ul, #post-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#pre-section ul li, #post-section ul li {
+  padding: 5px 0px;
+}
+
+#pre-section ul li:before, #post-section ul li:before {
+  color: red !important;
+}
+
+#pre-section .desc .desc-text, #post-section .desc .desc-text {
+  margin: 0;
+}
+
+#pre-section .step-custom, #post-section .step-custom {
+  margin: 15px auto !important;
+}
+
+#pre-section .step-custom .image, #post-section .step-custom .image {
+  position: relative;
+  text-align: center;
+}
+
+#pre-section .step-custom .image img, #post-section .step-custom .image img {
+  border-radius: 50%;
+}
+
+#pre-section .step-custom .image .step, #post-section .step-custom .image .step {
+  display: block;
+  background: #02b0e0;
+  font-weight: bold;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  margin-top: -15px;
+  padding: 0 8px;
+}
+
+#post-section ul li::before {
+  content: "\2714\0020";
+  color: green;
+}
+
+@media screen and (min-width: 600px) {
+  #post-section .step-custom .step {
+    left: 11% !important;
+    top: 50% !important;
+    background: #272264 !important;
+  }
+}
+
+#pre-section {
+  border: solid 3px #d2d2d2 !important;
 }
 /*# sourceMappingURL=styles.css.map */
