@@ -11186,4 +11186,63 @@ footer p {
     padding-left: 15%;
   }
 }
+
+.text-primary {
+  color: #272264 !important;
+}
+
+.text-secondary {
+  color: #02b0e0 !important;
+}
+
+.text-normal {
+  text-transform: none !important;
+}
+
+#what-can-id-new .heading {
+  font-size: 3rem;
+  font-family: 'Raleway', 'sans-serif';
+  font-weight: 800;
+}
+
+@media screen and (max-width: 600px) {
+  #what-can-id-new .heading {
+    font-size: 1.7rem;
+    font-family: 'Raleway', 'sans-serif';
+    font-weight: 800;
+  }
+}
+
+.margin-t20 {
+  margin-top: 20px !important;
+}
+
+.margin-t30 {
+  margin-top: 30px !important;
+}
+
+.margin-t40 {
+  margin-top: 40px !important;
+}
+
+.margin-t50 {
+  margin-top: 50px !important;
+}
+
+#what-can-id-new .card {
+  border: solid 3px #272264;
+}
+
+#what-can-id-new .shift-up {
+  background: #fff;
+  margin-top: -22px;
+  width: -webkit-max-content !important;
+  width: -moz-max-content !important;
+  width: max-content !important;
+  padding: 0 5px;
+}
+
+#what-can-id-new p {
+  font-size: 1.3rem;
+}
 /*# sourceMappingURL=styles.css.map */
