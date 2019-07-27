@@ -10700,6 +10700,10 @@ font-family: 'Francois One', sans-serif;
   #hero-section-content {
     padding-left: 30px !important;
   }
+  #hero-section-image {
+    background-position: left !important;
+    margin-left: -40px;
+  }
 }
 
 #what-can-i-do {
@@ -11341,5 +11345,40 @@ footer p {
 
 #pre-section {
   border: solid 3px #d2d2d2 !important;
+}
+
+footer a {
+  text-decoration: none;
+  color: #333;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  #what-can-id-new .heading {
+    text-align: center;
+  }
+  #what-can-id-new .card {
+    margin: auto 10px;
+    padding: 2px;
+  }
+  #pre-post .heading {
+    text-align: center;
+  }
+  #pre-post .card {
+    margin: auto 10px;
+    padding: 2px;
+  }
+  .step {
+    left: 14% !important;
+  }
+  #post-section .step {
+    background: #272264 !important;
+  }
+  .shift-up {
+    font-size: 20px !important;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
