@@ -78,67 +78,74 @@
     <section id="request-demo" class="mgt-75">
         <div class="container">
             <div class="row py-5">
-                <div class="col-12 text-center" id="request-input-form">
-                    <h1>Request A Demo</h1>
-                    <div class="lead w-100 d-flex justify-content-center">
-                        <ul id="request-list" class="mx-auto">
-                            <li>Upgrade your B2B selling process</li>
-                            <li>Reduce your cost to serve customers</li>
-                            <li>Give your B2B customer an App to place order</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <h3>Contact Us</h3>
-                    <p class="lead">
+
+                <div class="col-10 mx-auto col-md-5 py-5" id="contact-form">
+                    <h3 class="heading">Contact Us</h3>
+                    <p class="lead text">
                         Let's have a 10 minute call and see if EMS'a fit for your Business
                     </p>
-                    <form class="form">
-                        <div class="form-group row">
-                            <label for="name" class="col-sm-3 col-form-label">Name</label>
-                            <div class="col-sm-9" id="name-input">
-                                <input type="text" class="form-control" id="name" placeholder="Enter Your Name" required>
-                            </div>
+                    <form class="form mt-5 px-3">
+                        <div class="row">
+                                <div class="form-group col-12 col-md-6">
+                                        <label for="name" class="col-sm-3 p-0">Name</label>
+                                        <div id="name-input">
+                                            <input type="text" class="form-control" id="name" required>
+                                        </div>
+                                </div>
+                                <div class="form-group col-12 col-md-6">
+                                        <label for="company" class="col-sm-3 p-0">Company</label>
+                                        <div id="company-input">
+                                            <input type="text" class="form-control" id="company" required>
+                                        </div>
+                                </div>
+
+                                <div class="form-group col-12">
+                                        <label for="email" class="col-sm-3 p-0">Email</label>
+                                        <div id="email-input">
+                                            <input type="email" class="form-control" id="email" required>
+                                        </div>
+                                </div>
+                                <div class="form-group col-12">
+                                        <label for="phone" class="col-sm-3 p-0">Phone</label>
+                                        <div id="phone-input">
+                                            <input type="text" minlength="10" class="form-control" id="phone" required>
+                                        </div>
+                                </div>
+                                <div class="form-group col-12">
+                                        <label for="sales-rep" class="col-sm-3 p-0">Sales Rep</label>
+                                        <div id="sales-input">
+                                            <select id="sales-rep" class="form-control" required>
+                                                <option selected disabled>Choose...</option>
+                                                <option value="1-5">1-5</option>
+                                                <option calue="6-20">6-20</option>
+                                                <option value="21-100">21-100</option>
+                                                <option value="100+">100+</option>
+                                            </select>
+                                        </div>
+                                </div>
+
                         </div>
+
+                        
+
                         <div class="form-group row">
-                            <label for="company" class="col-sm-3 col-form-label">Company</label>
-                            <div class="col-sm-9" id="company-input">
-                                <input type="text" class="form-control" id="company" placeholder="Your Company Name" required>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="email" class="col-sm-3 col-form-label">Email</label>
-                            <div class="col-sm-9" id="email-input">
-                                <input type="email" class="form-control" id="email" placeholder="Enter Your Email" required>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="phone" class="col-sm-3 col-form-label">Phone</label>
-                            <div class="col-sm-9" id="phone-input">
-                                <input type="text" minlength="10" class="form-control" id="phone" placeholder="Enter Your Phone Number" required>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <label for="sales-rep" class="col-sm-3 col-form-label">Sales Rep</label>
-                            <div class="col-sm-6" id="sales-input">
-                                <select id="sales-rep" class="form-control" required>
-                                    <option selected disabled>Choose...</option>
-                                    <option value="1-5">1-5</option>
-                                    <option calue="6-20">6-20</option>
-                                    <option value="21-100">21-100</option>
-                                    <option value="100+">100+</option>
-                                </select>
-                            </div>
-                        </div>
-                        <div class="form-group row">
-                            <div class="col-12 col-md-8 mx-auto">
-                                <input type="submit" id="request-demo-btn" class="btn btn-success btn-block mx-auto" value="Submit" />
+                            <div class="col-12 mx-auto">
+                                <input type="submit" id="request-demo-btn" class="btn btn-success btn-block mx-auto mt-4" value="Submit" />
                             </div>
                         </div>
                     </form>
                 </div>
-                <div class="col-12 col-md-6">
-                    <img width="100%" src="assest/contact.png" alt="contact image">
+                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                        <div class="text-center" id="request-input-form">
+                                <h1>Request A Demo</h1>
+                                <div class="lead w-100 d-flex justify-content-center">
+                                    <ul id="request-list" class="mx-auto">
+                                        <li>Upgrade your B2B selling process</li>
+                                        <li>Reduce your cost to serve customers</li>
+                                        <li>Give your B2B customer an App to place order</li>
+                                    </ul>
+                                </div>
+                        </div>
                 </div>
             </div>
         </div>
