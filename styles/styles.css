@@ -10969,8 +10969,7 @@ select::-ms-expand {
   margin: 0 !important;
   padding: 20px 10px !important;
   border-bottom: solid 2px #f5f5f5;
-  background-image: -webkit-gradient(linear, left top, right top, from(#ff9b00), to(#ff7800));
-  background-image: linear-gradient(90deg, #ff9b00, #ff7800);
+  background-image: linear-gradient(45deg, #02b0e0, #272264);
 }
 
 #pricing-card .pricing-header h2, #pricing-card .pricing-header h3 {
@@ -10992,7 +10991,7 @@ select::-ms-expand {
 #pricing-card ul li {
   color: #333;
   border-bottom: 1px solid #e6e6e6;
-  padding: 20px 0px;
+  padding: 10px 0px;
 }
 
 #pricing-card ul li:before {
@@ -11002,6 +11001,10 @@ select::-ms-expand {
 
 #pricing-card .price {
   color: #fff;
+}
+
+#pricing-card .price-2 {
+  font-size: 1rem;
 }
 
 #pricing-card .note ul li {
@@ -11045,7 +11048,7 @@ select::-ms-expand {
 
 .note {
   font-weight: 800;
-  color: #dc3545 !important;
+  color: #02b0e0 !important;
 }
 
 .navbar {
@@ -11466,5 +11469,13 @@ footer .fa {
 
 .fa-facebook, .fa-linkedin {
   color: #3B5998;
+}
+
+#pricing-card .note ul li {
+  color: #02b0e0 !important;
+}
+
+#pricing-content {
+  background-image: linear-gradient(45deg, #02b0e0, #272264);
 }
 /*# sourceMappingURL=styles.css.map */

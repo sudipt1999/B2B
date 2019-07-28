@@ -105,6 +105,12 @@ $(document).ready(function(){
             </button>
             </div>
           `)
+
+        $('#name').val("");
+        $('#company').val("");
+        $('#email').val("");
+        $('#phone').val("");
+        $('#sales-rep').val("Choose...");
         });
     }
     
