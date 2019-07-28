@@ -11435,4 +11435,13 @@ footer a:hover {
   line-height: 2em !important;
   font-family: '3653ec 8 0', sans-serif !important;
 }
+
+@media screen and (max-width: 600px) {
+  #pricing-content h1 {
+    font-size: 3rem;
+  }
+  #pricing-content h4 {
+    font-size: 1rem;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
